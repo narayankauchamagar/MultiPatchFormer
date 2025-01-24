@@ -5,4 +5,4 @@ Link of the paper:
 https://www.nature.com/articles/s41598-024-82417-4
 
 
-![Alt text](https://example.com/image.png)
+![Alt text](41598_2024_82417_Fig2_HTML.webp)
