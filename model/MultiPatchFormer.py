@@ -172,7 +172,7 @@ class Model(nn.Module):
                                                        forecast_ch3, forecast_ch4, forecast_ch5,
                                                        forecast_ch6, forecast_ch7), dim=-1))
 
-                final_forecast = torch.cat((forecast_ch1, forecast_ch2, forecast_ch3, forecast_ch4, 
+        final_forecast = torch.cat((forecast_ch1, forecast_ch2, forecast_ch3, forecast_ch4, 
                                 forecast_ch5, forecast_ch6, forecast_ch7, forecast_ch8
                                   ), dim=-1).permute(0, 2, 1)
     
