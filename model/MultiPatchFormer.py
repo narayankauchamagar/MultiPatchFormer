@@ -1,3 +1,13 @@
+import torch
+import torch.nn as nn
+from torch.nn.modules import ModuleList, Module
+import math
+from einops import rearrange, repeat
+
+
+from model.MultiPatchFormer_Encoder import MultiHeadAttention, MultiHeadAttention_ch, Encoder, RevIN
+
+
 class Model(nn.Module):
        
     def __init__(self, configs):
